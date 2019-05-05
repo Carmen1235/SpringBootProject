@@ -1,0 +1,91 @@
+{
+  "groups": [
+    {
+      "name": "person",
+      "type": "com.example.szm.entity.Persontest",
+      "sourceType": "com.example.szm.entity.Persontest"
+    },
+    {
+      "name": "person2",
+      "type": "com.example.szm.entity.Persontest2",
+      "sourceType": "com.example.szm.entity.Persontest2"
+    }
+  ],
+  "properties": [
+    {
+      "name": "person.age",
+      "type": "java.lang.Integer",
+      "sourceType": "com.example.szm.entity.Persontest",
+      "defaultValue": 0
+    },
+    {
+      "name": "person.birth",
+      "type": "java.util.Date",
+      "sourceType": "com.example.szm.entity.Persontest"
+    },
+    {
+      "name": "person.boss",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.example.szm.entity.Persontest",
+      "defaultValue": false
+    },
+    {
+      "name": "person.dog-dao",
+      "type": "com.example.szm.entity.DogDao",
+      "sourceType": "com.example.szm.entity.Persontest"
+    },
+    {
+      "name": "person.last-name",
+      "type": "java.lang.String",
+      "sourceType": "com.example.szm.entity.Persontest"
+    },
+    {
+      "name": "person.list",
+      "type": "java.util.List<java.lang.String>",
+      "sourceType": "com.example.szm.entity.Persontest"
+    },
+    {
+      "name": "person.maps",
+      "type": "java.util.Map<java.lang.String,java.lang.String>",
+      "sourceType": "com.example.szm.entity.Persontest"
+    },
+    {
+      "name": "person2.age",
+      "type": "java.lang.Integer",
+      "sourceType": "com.example.szm.entity.Persontest2",
+      "defaultValue": 0
+    },
+    {
+      "name": "person2.birth",
+      "type": "java.util.Date",
+      "sourceType": "com.example.szm.entity.Persontest2"
+    },
+    {
+      "name": "person2.boss",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.example.szm.entity.Persontest2",
+      "defaultValue": false
+    },
+    {
+      "name": "person2.dog-dao",
+      "type": "com.example.szm.entity.DogDao",
+      "sourceType": "com.example.szm.entity.Persontest2"
+    },
+    {
+      "name": "person2.last-name",
+      "type": "java.lang.String",
+      "sourceType": "com.example.szm.entity.Persontest2"
+    },
+    {
+      "name": "person2.list",
+      "type": "java.util.List<java.lang.String>",
+      "sourceType": "com.example.szm.entity.Persontest2"
+    },
+    {
+      "name": "person2.maps",
+      "type": "java.util.Map<java.lang.String,java.lang.String>",
+      "sourceType": "com.example.szm.entity.Persontest2"
+    }
+  ],
+  "hints": []
+}

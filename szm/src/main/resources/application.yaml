@@ -1,0 +1,11 @@
+#person:
+#  lastName: 亮
+#  age: 18
+#  boss: true
+#  birth: 2019/10/12
+#  maps: {key1: value1,key2: value2}
+#  list: [dog, cat, house]
+#  dogDao:
+#    name: ${person.lastName}_dog
+#    age: ${person.age}
+#测试person印射
